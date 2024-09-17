@@ -38,7 +38,7 @@ section {
 
 /* Hero Section */
 #hero {
-    background-image: url('https://via.placeholder.com/1920x1080');
+    background-image: url('/images/fabric1.jpeg');
     background-size: cover;
     background-position: center;
     height: 100vh;
