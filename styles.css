@@ -86,6 +86,7 @@ section {
 /* Services Section */
 #services {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     background-color: #fff;
 }
@@ -95,6 +96,7 @@ section {
     background-color: #f4f4f4;
     padding: 20px;
     border-radius: 10px;
+    margin-bottom: 20px;
 }
 
 .service-item h3 {
@@ -103,6 +105,12 @@ section {
 
 .service-item p {
     font-size: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+    .service-item {
+        width: 100%;
+    }
 }
 
 /* Contact Section */
