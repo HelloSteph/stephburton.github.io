@@ -247,7 +247,7 @@ img {
         font-size: 2rem;
     }
 
-    #socials {
+    /* #socials {
         flex-direction: column;
         align-items: center;
     }
@@ -255,7 +255,7 @@ img {
     .socials-item {
         width: 80%;
         margin-bottom: 20px;
-    }
+    } */
 }
 
 /* For mobile phones */
@@ -272,9 +272,9 @@ img {
         font-size: 1.8rem;
     }
 
-    .socials-item {
+    /* .socials-item {
         width: 90%;
-    }
+    } */
 
     #contact form {
         width: 90%;
