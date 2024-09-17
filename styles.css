@@ -116,10 +116,12 @@ section {
 /* Contact Section */
 #contact {
     background-color: #f4f4f4;
+    padding: 40px 20px;
 }
 
 #contact form {
     max-width: 600px;
+    width: 100%;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -131,6 +133,7 @@ section {
     border: 1px solid #ddd;
     border-radius: 5px;
     width: 100%;
+    box-sizing: border-box;
 }
 
 #contact button {
@@ -140,10 +143,27 @@ section {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    font-size: 16px;
 }
 
 #contact button:hover {
     background-color: #555;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 480px) {
+    #contact form {
+        max-width: 100%;
+    }
+
+    #contact input, #contact textarea, #contact button {
+        padding: 12px;
+        font-size: 16px;
+    }
+
+    #contact button {
+        width: 100%;
+    }
 }
 
 img {
