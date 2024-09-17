@@ -79,7 +79,7 @@ section {
     background-color: #f4f4f4;
 }
 
-#about_image {
+#about_img {
     background-image: url('/images/fabric1.jpeg');
     background-size: cover;
     background-position: center;
