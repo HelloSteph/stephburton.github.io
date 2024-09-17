@@ -76,8 +76,9 @@ section {
 
 /* About Section */
 #about {
-    background-color: #f4f4f4;
+    background-color: #43571c;
     padding: 50px 20px;
+    color: #ddd;
 }
 
 .about-container {
