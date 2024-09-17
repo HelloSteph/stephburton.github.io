@@ -136,6 +136,7 @@ section {
 
 .socials-item {
     background-color: #ddd;
+    height: 100%;
 }
 
 @media (max-width: 768px) {
