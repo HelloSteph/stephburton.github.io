@@ -32,7 +32,7 @@ section {
 @media screen and (max-width: 480px) {
     .btn, #contact button, #contact input, #contact textarea {
         padding: 15px;
-        font-size: 16px; /* Minimum recommended touch target size */
+        font-size: 16px;
     }
 }
 
@@ -133,45 +133,15 @@ section {
     gap: 20px;
 }
 
+.socials-item {
+    background-color: #ddd;
+}
+
 @media (max-width: 768px) {
     #socials {
       grid-template-columns: repeat(2, 1fr);
     }
   }
-  
-  @media (max-width: 480px) {
-    #socials {
-      grid-template-columns: 1fr;
-    }
-  }
-/* #socials {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    background-color: #fff;
-}
-
-.socials-item {
-    width: 30%;
-    background-color: #f4f4f4;
-    padding: 20px;
-    border-radius: 10px;
-    margin-bottom: 20px;
-}
-
-.socials-item h3 {
-    margin-bottom: 15px;
-}
-
-.socials-item p {
-    font-size: 1rem;
-}
-
-@media screen and (max-width: 768px) {
-    .socials-item {
-        width: 100%;
-    }
-} */
 
 /* Contact Section */
 #contact {
@@ -247,15 +217,6 @@ img {
         font-size: 2rem;
     }
 
-    /* #socials {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .socials-item {
-        width: 80%;
-        margin-bottom: 20px;
-    } */
 }
 
 /* For mobile phones */
@@ -271,10 +232,6 @@ img {
     #about h2 {
         font-size: 1.8rem;
     }
-
-    /* .socials-item {
-        width: 90%;
-    } */
 
     #contact form {
         width: 90%;
