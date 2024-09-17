@@ -83,15 +83,15 @@ section {
     font-size: 2.5rem;
 }
 
-/* Services Section */
-#services {
+/* Socials Section */
+#socials {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     background-color: #fff;
 }
 
-.service-item {
+.socials-item {
     width: 30%;
     background-color: #f4f4f4;
     padding: 20px;
@@ -99,16 +99,16 @@ section {
     margin-bottom: 20px;
 }
 
-.service-item h3 {
+.socials-item h3 {
     margin-bottom: 15px;
 }
 
-.service-item p {
+.socials-item p {
     font-size: 1rem;
 }
 
 @media screen and (max-width: 768px) {
-    .service-item {
+    .socials-item {
         width: 100%;
     }
 }
@@ -187,12 +187,12 @@ img {
         font-size: 2rem;
     }
 
-    #services {
+    #socials {
         flex-direction: column;
         align-items: center;
     }
 
-    .service-item {
+    .socials-item {
         width: 80%;
         margin-bottom: 20px;
     }
@@ -212,7 +212,7 @@ img {
         font-size: 1.8rem;
     }
 
-    .service-item {
+    .socials-item {
         width: 90%;
     }
 
